@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".HomeFragment">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/motogplogo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="37sp"
+            android:layout_marginTop="85dp"
+            android:text="2020"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            android:layout_marginLeft="102dp"/>
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/fragment_container" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+                android:text="Next Race :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:textColor="#D00"
+                android:layout_marginTop="25dp"
+                android:text="GP VALENCIA" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        style="@style/TextSpec.Value"
+                        android:layout_width="10dp"
+                        android:layout_height="240dp"
+                        android:layout_marginLeft="10dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/valenciagpm" />
+
+                </TableRow>
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="Track : "/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="Circuit Ricardo Tormo"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="Date : "/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="November 15, 2020"/>
+                </TableRow>
+            </TableLayout>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+                android:text="Top 3 :" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="Rank"/>
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="Rider"/>
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="Points"/>
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="Wins"/>
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="Constructor"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="1"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="Joan Mir"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="162"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="1"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="Suzuki"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="2"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="Fabio Quartararo"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="125"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="3"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="Yamaha"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="3"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="Álex Rins"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="125"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="1"/>
+                    <TextView
+                        style="@style/TextSpec.Value"
+                        android:text="Suzuki"/>
+                </TableRow>
+            </TableLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</ScrollView>

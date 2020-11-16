@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">InGP</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_dashboard">Logo InfoGP</string>
+    <string name="this_home">Menu Home</string>
+    <string name="this_jadwal">Menu Jadwal</string>
+    <string name="this_riders">Menu Riders</string>
+    <string name="search">Search</string>
+    <string name="menu_a">Start</string>
+    <string name="menu_b">Close</string>
+    <string name="menu_x">Exit</string>
+    <string name="menu_1">Home</string>
+    <string name="menu_2">Schedule</string>
+    <string name="menu_3">Rider</string>
+    <string name="search_hint">Masukkan kata</string>
+    <string name="title_activity_tes_nav">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_riders">Riders</string>
+    <string name="name_riders">Nama Rider</string>
+    <string name="name_race">Nama Race</string>
+    <string name="lorem">lorem ipsum dolor sit amet</string>
+
+    <string-array name="data_name">
+        <item>Marc Márquez</item>
+        <item>Valentino Rossi</item>
+        <item>Andrea Dovizioso</item>
+        <item>Fabio Quartararo</item>
+        <item>Joan Mir</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>#93\nNations\t: Spain\nTeam\t: Repsol Honda</item>
+        <item>#46\nNations\t: Italy\nTeam\t: Monster Energy Yamaha</item>
+        <item>#04\nNations\t: Italy\nTeam\t: Ducati</item>
+        <item>#20\nNations\t: France\nTeam\t: Petronas Yamaha</item>
+        <item>#36\nNations\t: Spain\nTeam\t: Suzuki Ecstar</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/mm93</item>
+        <item>@drawable/vr46</item>
+        <item>@drawable/ad04</item>
+        <item>@drawable/fq20</item>
+        <item>@drawable/jm36</item>
+    </array>
+
+    <string-array name="race_name">
+        <item>SPANISH GP</item>
+        <item>ANDALUSIAN GP</item>
+        <item>CZECH GP</item>
+        <item>AUSTRIAN GP</item>
+        <item>STYRIA GP</item>
+        <item>SAN MARINO GP</item>
+    </string-array>
+
+    <string-array name="race_description">
+        <item>Date\t: July 19, 2020\nTrack\t: Circuito do Jerez</item>
+        <item>Date\t: July 26, 2020\nTrack\t: Circuito do Jerez</item>
+        <item>Date\t: August 9, 2020\nTrack\t: Brno Circuit</item>
+        <item>Date\t: August 16, 2020\nTrack\t: Red Bull Ring</item>
+        <item>Date\t: August 23, 2020\nTrack\t: Red Bull Ring</item>
+        <item>Date\t: September 13, 2020\nTrack\t: Misano World Circuit Marco Simoncelli</item>
+    </string-array>
+
+    <array name="race_photo">
+        <item>@drawable/flag_spain</item>
+        <item>@drawable/flag_spain</item>
+        <item>@drawable/flag_czech</item>
+        <item>@drawable/flag_austria</item>
+        <item>@drawable/flag_austria</item>
+        <item>@drawable/flag_sanmarino</item>
+    </array>
+</resources>
