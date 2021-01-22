@@ -21,14 +21,14 @@
             android:layout_height="wrap_content"
             android:textSize="37sp"
             android:layout_marginTop="85dp"
-            android:text="2020"
+            android:text="2021"
             android:textStyle="bold|italic"
             android:textColor="#000"
             android:layout_marginLeft="102dp"/>
         <FrameLayout
             android:layout_height="match_parent"
             android:layout_width="match_parent"
-            android:layout_marginTop="165dp"
+            android:layout_marginTop="150dp"
             android:layout_marginLeft="10dp"
             android:id="@+id/fragment_container" >
             <TextView
@@ -46,7 +46,7 @@
                 android:textStyle="bold|italic"
                 android:textColor="#D00"
                 android:layout_marginTop="25dp"
-                android:text="GP VALENCIA" />
+                android:text="GP QATAR" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -54,28 +54,28 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp">
                 <TableRow
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <ImageView
                         style="@style/TextSpec.Value"
-                        android:layout_width="10dp"
-                        android:layout_height="240dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_width="15dp"
+                        android:layout_height="230dp"
                         android:layout_marginLeft="10dp"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/valenciagpm" />
+                        android:src="@drawable/qatargp" />
 
                 </TableRow>
                 <TableRow
 
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp">
+                    android:layout_height="wrap_content">
                     <TextView
                         style="@style/TextSpec.Field"
                         android:text="Track : "/>
                     <TextView
                         style="@style/TextSpec.Value"
-                        android:text="Circuit Ricardo Tormo"/>
+                        android:text="Losail International Circuit"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -86,7 +86,7 @@
                         android:text="Date : "/>
                     <TextView
                         style="@style/TextSpec.Value"
-                        android:text="November 15, 2020"/>
+                        android:text="March 28, 2021"/>
                 </TableRow>
             </TableLayout>
 
@@ -94,7 +94,7 @@
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="470dp"
+            android:layout_marginTop="465dp"
             android:layout_marginLeft="10dp">
             <TextView
                 android:layout_width="wrap_content"
@@ -102,7 +102,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold|italic"
                 android:textColor="#000"
-                android:text="Top 3 :" />
+                android:text="Top 3 of 2020 Season Final Result:" />
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                         android:text="Joan Mir"/>
                     <TextView
                         style="@style/TextSpec.Value"
-                        android:text="162"/>
+                        android:text="171"/>
                     <TextView
                         style="@style/TextSpec.Value"
                         android:text="1"/>
@@ -158,10 +158,10 @@
                         android:text="2"/>
                     <TextView
                         style="@style/TextSpec.Value"
-                        android:text="Fabio Quartararo"/>
+                        android:text="Franco Morbidelli"/>
                     <TextView
                         style="@style/TextSpec.Value"
-                        android:text="125"/>
+                        android:text="158"/>
                     <TextView
                         style="@style/TextSpec.Value"
                         android:text="3"/>
@@ -181,7 +181,7 @@
                         android:text="Álex Rins"/>
                     <TextView
                         style="@style/TextSpec.Value"
-                        android:text="125"/>
+                        android:text="139"/>
                     <TextView
                         style="@style/TextSpec.Value"
                         android:text="1"/>

@@ -5,9 +5,5 @@
             android:title="@string/menu_a"
             android:icon = "@drawable/baseline_play_arrow_white_18dp"
             app:showAsAction="always" />
-        <item android:id="@+id/menuB"
-            android:title="@string/menu_b"
-            android:icon = "@drawable/baseline_close_white_18dp"
-            app:showAsAction="always" />
 
 </menu>

@@ -1,4 +1,18 @@
 <resources>
+    <string name="content_title">Losail International Circuit</string>
+    <string name="content_text">28 Maret 2021</string>
+    <string name="subtext">Next : Race 1 GP2021</string>
+    <string name="send_notif">Next Race</string>
+
+    <string name="one_time_alarm">One Time Alarm</string>
+    <string name="alarm_date">Tanggal Alarm</string>
+    <string name="set_one_time_alarm">Live Alarm</string>
+    <string name="alarm_message">Pesan Alarm</string>
+    <string name="repeating_alarm">Repeating Alarm</string>
+    <string name="set_repeating_alarm">Set Repeating Alarm</string>
+    <string name="cancel_alarm">Batalkan Alarm</string>
+    <string name="alarm_time">Waktu Alarm</string>
+
     <string name="app_name">InGP</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="this_dashboard">Logo InfoGP</string>
@@ -22,27 +36,102 @@
     <string name="lorem">lorem ipsum dolor sit amet</string>
 
     <string-array name="data_name">
-        <item>Marc Márquez</item>
-        <item>Valentino Rossi</item>
-        <item>Andrea Dovizioso</item>
-        <item>Fabio Quartararo</item>
-        <item>Joan Mir</item>
+        <item>Joan Mir\n171 Pts</item>
+        <item>Franco Morbidelli\n158 Pts</item>
+        <item>Álex Rins\n139 Pts</item>
+        <item>Andrea Dovizioso\n135 Pts</item>
+        <item>Pol Espargaró\n135 Pts</item>
+        <item>Maverick Viñales\n132 Pts</item>
+        <item>Jack Miller\n132 Pts</item>
+        <item>Fabio Quartararo\n127 Pts</item>
+        <item>Miguel Oliveira\n125 Pts</item>
+        <item>Takaaki Nakagami\n116 Pts</item>
+        <item>Brad Binder\n87 Pts</item>
+        <item>Danilo Petrucci\n78 Pts</item>
+        <item>Johann Zarco\n77 Pts</item>
+        <item>Álex Márquez\n74 Pts</item>
+        <item>Valentino Rossi\n66 Pts</item>
+        <item>Francesco Bagnaia\n47 Pts</item>
+        <item>Aleix Espargaró\n42 Pts</item>
+        <item>Cal Crutchlow\n32 Pts</item>
+        <item>Stefan Bradl\n27 Pts</item>
+        <item>Iker Lecuona\n27 Pts</item>
+        <item>Bradley Smith\n12 Pts</item>
+        <item>Tito Rabat\n10 Pts</item>
+        <item>Michele Pirro\n4 Pts</item>
+        <item>Lorenzo Savadori\n0 Pts</item>
+        <item>Marc Márquez\n0 Pts</item>
+        <item>Mika Kalio\n0 Pts</item>
+
+
+
+
     </string-array>
 
     <string-array name="data_description">
-        <item>#93\nNations\t: Spain\nTeam\t: Repsol Honda</item>
-        <item>#46\nNations\t: Italy\nTeam\t: Monster Energy Yamaha</item>
-        <item>#04\nNations\t: Italy\nTeam\t: Ducati</item>
-        <item>#20\nNations\t: France\nTeam\t: Petronas Yamaha</item>
         <item>#36\nNations\t: Spain\nTeam\t: Suzuki Ecstar</item>
+        <item>#21\nNations\t: Italy\nTeam\t: Petronas Yamaha SRT</item>
+        <item>#42\nNations\t: Spain\nTeam\t: Suzuki Ecstar</item>
+        <item>#04\nNations\t: Italy\nTeam\t: Ducati</item>
+        <item>#44\nNations\t: Spain\nTeam\t: Red Bull KTM Factory</item>
+        <item>#12\nNations\t: Spain\nTeam\t: Monster Energy Yamaha</item>
+        <item>#43\nNations\t: Australia\nTeam\t: Pramac Racing</item>
+        <item>#20\nNations\t: France\nTeam\t: Petronas Yamaha SRT</item>
+        <item>#88\nNations\t: Portugal\nTeam\t: Red Bull KTM Tech3</item>
+        <item>#30\nNations\t: Japan\nTeam\t: LCR Honda Idemitsu</item>
+        <item>#33\nNations\t: South Africa\nTeam\t: Red Bull KTM Factory</item>
+        <item>#9\nNations\t: Italy\nTeam\t: Ducati</item>
+        <item>#5\nNations\t: France\nTeam\t: Avintia Racing</item>
+        <item>#73\nNations\t: Spain\nTeam\t: Repsol Honda</item>
+        <item>#46\nNations\t: Italy\nTeam\t: Monster Energy Yamaha</item>
+        <item>#63\nNations\t: Italy\nTeam\t: Pramac Racing</item>
+        <item>#41\nNations\t: Spain\nTeam\t: Aprilia Racing</item>
+        <item>#35\nNations\t: UK\nTeam\t: LCR Honda Castrol</item>
+        <item>#6\nNations\t: Germany\nTeam\t: Repsol Honda</item>
+        <item>#27\nNations\t: Spain\nTeam\t: Red Bull KTM Tech3</item>
+        <item>#38\nNations\t: UK\nTeam\t: Aprilia Racing</item>
+        <item>#53\nNations\t: Spain\nTeam\t: Esponsorama Racing</item>
+        <item>#51\nNations\t: Italy\nTeam\t: Pramac Racing</item>
+        <item>#32\nNations\t: Italy\nTeam\t: Aprilia Racing</item>
+        <item>#93\nNations\t: Spain\nTeam\t: Repsol Honda</item>
+        <item>#82\nNations\t: Estonia\nTeam\t: Red Bull KTM Tech3</item>
+
+
+
+
     </string-array>
 
     <array name="data_photo">
-        <item>@drawable/mm93</item>
-        <item>@drawable/vr46</item>
-        <item>@drawable/ad04</item>
-        <item>@drawable/fq20</item>
         <item>@drawable/jm36</item>
+        <item>@drawable/fm21</item>
+        <item>@drawable/ar42</item>
+        <item>@drawable/ad04</item>
+        <item>@drawable/pe44</item>
+        <item>@drawable/mv12</item>
+        <item>@drawable/jm43</item>
+        <item>@drawable/fq20</item>
+        <item>@drawable/mo88</item>
+        <item>@drawable/tn30</item>
+        <item>@drawable/bb33</item>
+        <item>@drawable/dp9</item>
+        <item>@drawable/jz5</item>
+        <item>@drawable/am73</item>
+        <item>@drawable/vr46</item>
+        <item>@drawable/fb63</item>
+        <item>@drawable/ae41</item>
+        <item>@drawable/cc35</item>
+        <item>@drawable/sb6</item>
+        <item>@drawable/il27</item>
+        <item>@drawable/bs38</item>
+        <item>@drawable/tr53</item>
+        <item>@drawable/mp51</item>
+        <item>@drawable/ls32</item>
+        <item>@drawable/mm93</item>
+        <item>@drawable/mk82</item>
+
+
+
+
     </array>
 
     <string-array name="race_name">
@@ -52,6 +141,14 @@
         <item>AUSTRIAN GP</item>
         <item>STYRIA GP</item>
         <item>SAN MARINO GP</item>
+        <item>EMILIA ROMAGNA GP</item>
+        <item>CATALAN GP</item>
+        <item>FRENCH GP</item>
+        <item>ARAGON GP</item>
+        <item>TERUEL GP</item>
+        <item>EUROPE GP</item>
+        <item>VALENCIA GP</item>
+        <item>PORTUGUESE GP</item>
     </string-array>
 
     <string-array name="race_description">
@@ -61,14 +158,30 @@
         <item>Date\t: August 16, 2020\nTrack\t: Red Bull Ring</item>
         <item>Date\t: August 23, 2020\nTrack\t: Red Bull Ring</item>
         <item>Date\t: September 13, 2020\nTrack\t: Misano World Circuit Marco Simoncelli</item>
+        <item>Date\t: September 20, 2020\nTrack\t: Misano World Circuit Marco Simoncelli</item>
+        <item>Date\t: September 27, 2020\nTrack\t: Circuit de Catalunya</item>
+        <item>Date\t: October 11, 2020\nTrack\t: Bugatti Circuit</item>
+        <item>Date\t: October 18, 2020\nTrack\t: Ciudad del Motor de Aragón</item>
+        <item>Date\t: October 25, 2020\nTrack\t: Ciudad del Motor de Aragón</item>
+        <item>Date\t: November 8, 2020\nTrack\t: Circuit Ricardo Tormo</item>
+        <item>Date\t: November 15, 2020\nTrack\t: Circuit Ricardo Tormo</item>
+        <item>Date\t: November 22, 2020\nTrack\t: Algarve International Circuit</item>
     </string-array>
 
     <array name="race_photo">
         <item>@drawable/flag_spain</item>
-        <item>@drawable/flag_spain</item>
+        <item>@drawable/flag_andalucia</item>
         <item>@drawable/flag_czech</item>
         <item>@drawable/flag_austria</item>
-        <item>@drawable/flag_austria</item>
+        <item>@drawable/flag_styria</item>
         <item>@drawable/flag_sanmarino</item>
+        <item>@drawable/flag_emil</item>
+        <item>@drawable/flag_catalan</item>
+        <item>@drawable/flag_france</item>
+        <item>@drawable/flag_aragon</item>
+        <item>@drawable/flag_teruel</item>
+        <item>@drawable/flag_europe</item>
+        <item>@drawable/flag_valencia</item>
+        <item>@drawable/flag_portugal</item>
     </array>
 </resources>
